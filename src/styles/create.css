@@ -286,7 +286,7 @@
     margin-top: 2vh;
     margin-left: 1vw;
     width: 23vw;
-    height: 25vh;
+    height: 20vh;
     background:var(--content-bg-2-dark-20);
     display: grid;
     grid-template-columns: 100%;
@@ -296,7 +296,7 @@
 .temp-pv > input {
     margin: 1vh 1vw 2vh 1vw;
     width: 20vw;
-    height: 8vw;
+    height: 6vw;
     font-size: 2rem;
     text-align: center;
     color: var(--text-color);
@@ -315,7 +315,7 @@
 }
 
 .dice-pv > input{
-    margin-top: 1vh;
+    margin: 1vh 0 1vh 0;
     width: 12vw;
     height: 4vw;
     font-size: 1.5rem;
@@ -323,4 +323,57 @@
     color: var(--text-color);
     background: var(--input-bg-dark-60);
     border-style: none;
+}
+
+.attack-spells-content {
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    width: 23vw;
+    height: 50vh;
+    background:var(--content-bg-2-dark-20);
+}
+
+
+.attacks-details {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 1vh 0vw;
+}
+
+.attack-input-1 {
+    background-color: var(--input-bg-dark-60);
+    border: none;
+    margin-left: 1vw;
+    width: 7vw;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.attack-input-2 {
+    background-color: var(--input-bg-dark-60);
+    border: none;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.attack-description-content {
+    margin-top: 4vh;
+}
+
+.attack-description > textarea {
+    resize: none;
+    background: var(--input-bg-dark-60);
+    border: none;
+    width: 21vw;
+    height: 25vh;
+    color: var(--text-color);
+}
+
+.attack-description > p {
+    margin-top: 1vh;
 }

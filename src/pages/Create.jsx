@@ -4,6 +4,8 @@ import "../styles/create.css";
 import Fields from "../components/Fields";
 import Attributes from "../components/AttributesFields";
 import ResTes from "../components/ResTes";
+import ThreeFields from "../components/ThreeFields";
+import Description from "../components/Description";
 
 export default function Create() {
   return (
@@ -219,6 +221,19 @@ export default function Create() {
             </div>
             <div className="dice-pv-content">
               <Fields _class="dice-pv">Dados de Vida</Fields>
+            </div>
+            <div className="attack-spells-content">
+              <div className="attacks-details">
+                <label htmlFor="">Nome</label>
+                <label htmlFor="">Nome</label>
+                <label htmlFor="">Nome</label>
+                <ThreeFields _classInput1="attack-input-1" _classInput2="attack-input-2"></ThreeFields>
+                <ThreeFields _classInput1="attack-input-1" _classInput2="attack-input-2"></ThreeFields>
+                <ThreeFields _classInput1="attack-input-1" _classInput2="attack-input-2"></ThreeFields>
+              </div>
+              <div className="attack-description-content">
+                <Description _class="attack-description">Ataques e Magias</Description>
+              </div>
             </div>
           </div>
         </div>
