@@ -8,6 +8,16 @@
     color: var(--text-color);
 }
 
+.container-2 {
+    border-radius: 0 0 20px 20px;
+    margin: 203vh 0 0 4.4vw;
+    position:absolute;
+    height: 200vh;
+    width: 90vw;
+    background: var(--sec-bg-dark);
+    color: var(--text-color);
+}
+
 .content-info {
     border-radius: 20px 20px 0px 0px;
     display: grid;
@@ -331,7 +341,7 @@
     margin-top: 2vh;
     margin-left: 1vw;
     width: 23vw;
-    height: 50vh;
+    height: 48vh;
     background:var(--content-bg-2-dark-20);
 }
 
@@ -376,4 +386,64 @@
 
 .attack-description > p {
     margin-top: 1vh;
+}
+
+.armorum-content {
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    width: 23vw;
+    height: 32vh;
+    background:var(--content-bg-2-dark-20);
+}
+
+.armorum-description > textarea {
+    margin-top: 1vh;
+    resize: none;
+    background: var(--input-bg-dark-60);
+    border: none;
+    width: 21vw;
+    height: 27vh;
+    color: var(--text-color);
+}
+
+.column-4 {
+    text-align: center;
+    height: 160vh;
+    width: 17.5vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background: var(--content-bg-1-dark-33)
+}
+
+.char-description {
+    margin-top: 2vh;
+}
+
+.char-description > textarea {
+    resize: none;
+    background: var(--input-bg-dark-60);
+    border: none;
+    width: 15vw;
+    height: 15vh;
+    color: var(--text-color);
+}
+
+#personality {
+    border-radius: 5px 5px 0 0;
+}
+
+#weakness {
+    border-radius: 0 0 5px 5px;
+}
+
+.char-carac > textarea{
+    resize: none;
+    background: var(--input-bg-dark-60);
+    border: none;
+    width: 15vw;
+    height: 60vh;
+    color: var(--text-color);
 }

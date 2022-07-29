@@ -235,8 +235,22 @@ export default function Create() {
                 <Description _class="attack-description">Ataques e Magias</Description>
               </div>
             </div>
+            <div className="armorum-content">
+              <Description _class="armorum-description">Equipamentos</Description>
+            </div>
+            
+          </div>
+          <div className="column-4">
+            <Description _class="char-description" _id="personality">Traços de Personalidade</Description>
+            <Description _class="char-description">Ideais</Description>
+            <Description _class="char-description">Vínculos</Description>
+            <Description _class="char-description" _id="weakness">Fraquezas</Description>
+            <Description _class="char-carac">Características e Traços</Description>
           </div>
         </div>
+      </div>
+      <div className="container-2">
+        
       </div>
     </>
   );
