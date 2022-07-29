@@ -6,6 +6,7 @@ import Attributes from "../components/AttributesFields";
 import ResTes from "../components/ResTes";
 import ThreeFields from "../components/ThreeFields";
 import Description from "../components/Description";
+import ImageApperance from "../components/ImageApperance";
 
 export default function Create() {
   return (
@@ -241,7 +242,7 @@ export default function Create() {
             
           </div>
           <div className="column-4">
-            <Description _class="char-description" _id="personality">Traços de Personalidade</Description>
+            <Description _class="char-description" _id="personality">Traços de Personal</Description>
             <Description _class="char-description">Ideais</Description>
             <Description _class="char-description">Vínculos</Description>
             <Description _class="char-description" _id="weakness">Fraquezas</Description>
@@ -250,7 +251,23 @@ export default function Create() {
         </div>
       </div>
       <div className="container-2">
-        
+        <div className="char-content">
+          <div className="char-apperance">
+            <ImageApperance _class="image-apperance">Aparência do Personagem</ImageApperance>
+            <div className="char-apperance-details">
+              <Fields _class="carac-fields">Idade</Fields>
+              <Fields _class="carac-fields">Altura</Fields>
+              <Fields _class="carac-fields">Peso</Fields>
+              <Fields _class="carac-fields">Olhos</Fields>
+              <Fields _class="carac-fields">Pele</Fields>
+              <Fields _class="carac-fields">Cabelos</Fields>
+            </div>
+          </div>
+          <div>
+            <Description _class="carac-text">História do Personagem</Description>
+            <Description _class="carac-text">Tesouro</Description>
+          </div>
+        </div>
       </div>
     </>
   );
