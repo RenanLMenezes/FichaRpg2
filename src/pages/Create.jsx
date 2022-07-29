@@ -6,6 +6,7 @@ import Attributes from "../components/AttributesFields";
 import ResTes from "../components/ResTes";
 import ThreeFields from "../components/ThreeFields";
 import Description from "../components/Description";
+import ImageApperance from "../components/ImageApperance";
 
 export default function Create() {
   return (
@@ -250,7 +251,11 @@ export default function Create() {
         </div>
       </div>
       <div className="container-2">
-        
+        <div className="char-content">
+          <div className="char-apperance">
+            <ImageApperance _class="image-apperance">Aparência do Personagem</ImageApperance>
+          </div>
+        </div>
       </div>
     </>
   );
